@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #00aaff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  background: url('https://source.unsplash.com/1600x600/?learning,education') no-repeat center center/cover;
+  color: white;
+  padding: 5rem 2rem;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #00aaff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.course-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.course-card {
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
